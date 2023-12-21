@@ -27,7 +27,7 @@ Se você encontrar problemas ou tiver sugestões de melhoria, sinta-se à vontad
 
 ## Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
+Este projeto é licenciado sob a [MIT License](https://github.com/Barreto0620/Python_Automation/blob/7919774f2722d8f46aa0e63c06690365245f6329/LICENSE).
 
 ---
 
