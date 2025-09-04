@@ -30,11 +30,26 @@ pyautogui.press('enter')
 pyautogui.write('cen')
 pyautogui.hotkey('ctrl', 'c')
 pyautogui.press('win')
-pyautogui.write('c:')
+pyautogui.write('c:\\')
 pyautogui.press('enter')
 pyautogui.hotkey('ctrl', 'v')
 time.sleep(3)
 pyautogui.alert('Favor aguardar término de transferência de arquivo. Após finalizado já poderá utilizar o computador, OBRIGADO !')
+
+# Fechar todos os exploradores de arquivo
+pyautogui.hotkey('alt', 'f4')  # Fecha a janela atual (explorador de arquivos)
+time.sleep(0.5)
+pyautogui.hotkey('alt', 'f4')  # Fecha qualquer outro explorador que possa estar aberto
+time.sleep(0.5)
+
+# Mensagem final profissional
+pyautogui.alert('✓ Processo concluído com sucesso!\n\n'
+               'Sistema atualizado e otimizado.\n'
+               'Você já pode utilizar o computador normalmente.\n\n'
+               '────────────────────────────────\n'
+               'Desenvolvido pela empresa WebCash\n'
+               '────────────────────────────────')
+
 # Realizado a troca do CentBrowser *
 
 
@@ -45,7 +60,3 @@ pyautogui.alert('Favor aguardar término de transferência de arquivo. Após fin
 
 #time.sleep(5)
 #print(pyautogui.position())
-
-
-
-
